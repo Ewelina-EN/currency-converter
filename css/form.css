@@ -6,21 +6,20 @@
 }
 
 .form__fieldset {
-    border: 2px solid rgb(4, 13, 50);
+    border: 2px solid #0e1a2a;
     border-radius: 10px;
 }
 
 .form__legend {
-    border: none;
-    background-color: #0a2be6e7;
+    border:1px solid #fff;
+    background-color: #0e1a2a;
     color: white;
     padding: 10px;
     border-radius: 5px;
 }
 
 .form__labelText {
-    font-weight: bolder;
-    width: 100%;
+    color: white;
     max-width: 150px;
     display: inline-block;
     margin-right: 5px;
@@ -37,18 +36,22 @@
 }
 
 .form__button {
-    width: 25%;
     border: none;
-    background-color: #0a2be6e7;
+    background-color: #0e1a2a;
     color: white;
     padding: 10px;
     border-radius: 5px;
 }
 
 .form__button:hover {
-    background-color: #405cffe7;
+    background-color: #1c5961;
 }
 
 .form__button:active {
-    background-color: #6779e3e7;
+    background-color: #056359;
+}
+
+.form__star {
+    color: white;
+    text-align: center;
 }

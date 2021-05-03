@@ -6,16 +6,11 @@ html {
     box-sizing: inherit;
 }
 
-.body {
-    font-family: 'Jaldi', sans-serif;
-    margin-top: 100px;
-    background-color: #d2cec942
-}
-
 .container {
     max-width: 700px;
     margin: 0 auto;
     padding: 0 20px;
+    font-family: 'Jaldi', sans-serif;
 }
 
 .form {
@@ -26,21 +21,21 @@ html {
 }
 
 .form__fieldset {
-    border: 2px solid rgb(4, 13, 50);
+    border: 2px solid white;
     border-radius: 10px;
+    background-color: rgb(18 172 159);
 }
 
 .form__legend {
-    border: none;
-    background-color: #0a2be6e7;
+    border: white;
+    background-color: #0fb9b0
     color: white;
     padding: 10px;
     border-radius: 5px;
 }
 
 .form__labelText {
-    font-weight: bolder;
-    width: 100%;
+    color: white;
     max-width: 150px;
     display: inline-block;
     margin-right: 5px;
@@ -49,7 +44,7 @@ html {
 
 .form__field {
     border: 1px solid #ccc;
-    border-color: black;
+    border-color: white;
     padding: 10px;
     width: 100%;
     max-width: 400px;
@@ -57,27 +52,32 @@ html {
 }
 
 .form__button {
-    width: 25%;
     border: none;
-    background-color: #0a2be6e7;
+    background-color: #0f2637;
     color: white;
     padding: 10px;
     border-radius: 5px;
 }
-
 .form__button:hover {
-    background-color: #405cffe7;
+    background-color: #1c5961;
 }
 
 .form__button:active {
-    background-color: #6779e3e7;
+    background-color: #056359;
+}
+
+.form__star {
+    color: white;
+    text-align: center;
 }
 
 .result {
-    background-color: #0a2be6e7;
+    background-color: #12ac9f;
+    border: 1px solid white;
     color: white;
     max-width: 600px;
     margin: 0 auto;
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
 }
