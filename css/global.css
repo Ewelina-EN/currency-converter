@@ -27,8 +27,8 @@ html {
 }
 
 .form__legend {
-    border: white;
-    background-color: #0fb9b0
+    border:1px solid #fff;
+    background-color: #0e1a2a;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -58,6 +58,7 @@ html {
     padding: 10px;
     border-radius: 5px;
 }
+
 .form__button:hover {
     background-color: #1c5961;
 }
