@@ -3,10 +3,7 @@
 ## General information - short instruction
 
 First, you need to enter the amount of PLN, select the currency you are interested in, and then click the "Przelicz" button. Your amount is in the blue table
-To reset all values, click "Wyczyść".
-
-![currency converter](https://github.com/Ewelina-EN/currency-converter/blob/main/images/howuseit.gif?raw=true)
-
+To reset all values, click "Wyczyść"
 
 ## Preview site: [click here](https://ewelina-en.github.io/currency-converter/)
 
